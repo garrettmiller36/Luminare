@@ -1,0 +1,5 @@
+graft latexcreator/mainsite/templates
+graft latexcreator/pdfcreator/templates
+graft latexcreator/mainsite/static
+graft latexcreator/pdfcreator/static
+include schema.sql
