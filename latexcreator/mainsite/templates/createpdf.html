@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+      <ul class="entries">
+      <dl>
+        <dt> Click template to enter parameter values. 
+      </dl> 
+      {% for entry in templates %}
+            <li><a href ="{{ url_for('latexcreator.paramentry',entry=entry) }}">{{ entry }}</a></li>
+      {% else %}
+        <li><em>Unbelievable.  No templates here so far</em></li>
+      {% endfor %}
+      </ul>
+  {% endif %}
+
+{% endblock %}

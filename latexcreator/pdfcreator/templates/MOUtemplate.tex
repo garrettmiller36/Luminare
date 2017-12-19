@@ -1,0 +1,100 @@
+\documentclass[11pt,a4paper]{article} % din a4, 11 pt schrift, einseitig,
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage[margin=.5in,headheight=70pt,headsep=0.3in,bottom=1.5cm,includeheadfoot]{geometry}
+\usepackage{booktabs}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\pagestyle{fancy}
+\fancyhead[C]{\includegraphics[width=3cm]{C:/Users/gtmil/myproject/flask/examples/flaskr/flaskr/static/images/LuminareHeader.png} \\ Memorandium of Understanding (MOU) }
+\fancyfoot[L]{\includegraphics[width=3cm]{C:/Users/gtmil/myproject/flask/examples/flaskr/flaskr/static/images/LuminareFooter.png}}
+\fancyfoot[C]{Memorandium of Understanding }
+\fancyfoot[R]{\thepage}
+\begin{document}
+
+
+\textbf{Date: \VAR{today}}
+
+\textbf{Luminare Subscription Services Memorandum of Understanding.}
+\emph{Please note that this is a legally non-binding offer. A full
+master service agreement / contract will follow.}
+
+Luminare will deploy Sagitta Clinical \& Analytics QI at
+\VAR{parameter_1} \VAR{parameter_2} for a \VAR{parameter_3} no-cost
+pilot to allow \VAR{parameter_2} to fully evaluate Luminare's
+proprietary workflow system.
+
+\textbf{SERVICES DETAIL}
+
+\textbf{Total Invoice Amount: No applicable charges for \VAR{parameter_3}
+pilot.}
+
+\begin{center}
+\begin{tabular}{|c c|} 
+ \hline
+ Product detail & Quantity \\ [0.5ex] 
+ \hline
+ Sagitta Analytics QI & 1  \\ 
+ \hline
+ Sagitta Clinical & 1  \\
+ \hline
+ Nursing or physician educator training \& materials & One location  \\
+ \hline
+\end{tabular}   
+\end{center}
+
+\textbf{TECHNICAL REQUIREMENTS}
+
+\begin{itemize}
+\tightlist
+\item
+  1-3 (virtual) servers if client wishes to host on premise.
+\item
+  Access to HL7/FHIR or comparable data stream.
+\item
+  HTTP(S) access between users and virtual servers.
+\end{itemize}
+
+\textbf{Product Name: Sagitta Analytics QI}
+
+The Sagitta Analytics QI platform is a real-time data reporting tool
+that is customized to your facility. It is used by administrators,
+quality improvement teams, pharmacy, physicians to obtain reports on
+clinical events.
+
+\textbf{Product Name: Sagitta Clinical}
+
+Sagitta Clinical is a sepsis screening tool. It is a web-based app that
+will deploy on any existing computer system that hosts your EMR system.
+It is used by clinical staff (eg.nurses) to assess patients at bedside
+and to implement protocols.
+
+\newpage
+
+\textbf{Deployment Details \& Schedule:}
+
+Sagitta analytics interfaces with EMRs via an HL7/FHIR or comparable
+interface. All client instances are hosted in their own dedicated silos
+and client data is not accessible to third parties.
+
+Services will be scheduled for deployment in conversation with client
+preferences. Clinical \VAR{parameter_3} no cost pilot period starts upon
+mutually agreed upon and satisfactory integration and training.
+
+\textbf{This MOU is not intended to be a legally binding agreement.} The
+parties will not be contractually bound unless and until Definitive
+
+
+\begin{center}
+\begin{tabular}{@{}p{2in}p{2in}@{}}
+Singature: \hrulefill & Singature: \hrulefill \\
+Job Title: \hrulefill & Job Title: \VAR{parameter_4} \\
+Date: \VAR{today} & Date: \VAR{today} \\
+Print Name: \hrulefill & Print Name:\VAR{parameter_5} \\ 
+\end{tabular}
+\end{center}
+\end{document}

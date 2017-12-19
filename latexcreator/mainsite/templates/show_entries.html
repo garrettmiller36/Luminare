@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+{% block body %}
+  {% if session.logged_in %}
+      <dl>
+        <dt> Click create PDF to see list of templates. 
+      </dl> 
+  {% endif %}
+
+{% endblock %}
